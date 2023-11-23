@@ -12,6 +12,7 @@
 		90C363AB2B0FD78000BC22B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C363AA2B0FD78000BC22B9 /* Assets.xcassets */; };
 		90C363AE2B0FD78000BC22B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C363AD2B0FD78000BC22B9 /* Preview Assets.xcassets */; };
 		90C363B52B0FD91000BC22B9 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C363B42B0FD91000BC22B9 /* Forecast.swift */; };
+		90F0AD322B0FE2940081B7FC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0AD312B0FE2940081B7FC /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		90C363AA2B0FD78000BC22B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90C363AD2B0FD78000BC22B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90C363B42B0FD91000BC22B9 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		90F0AD312B0FE2940081B7FC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				90C363A62B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift */,
 				90C363A82B0FD77F00BC22B9 /* ContentView.swift */,
+				90C363B42B0FD91000BC22B9 /* Forecast.swift */,
 				90C363AA2B0FD78000BC22B9 /* Assets.xcassets */,
 				90C363AC2B0FD78000BC22B9 /* Preview Content */,
-				90C363B42B0FD91000BC22B9 /* Forecast.swift */,
+				90F0AD312B0FE2940081B7FC /* APIService.swift */,
 			);
 			path = "FinalProject-WeatherWise-Group4";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				90C363A92B0FD77F00BC22B9 /* ContentView.swift in Sources */,
 				90C363B52B0FD91000BC22B9 /* Forecast.swift in Sources */,
+				90F0AD322B0FE2940081B7FC /* APIService.swift in Sources */,
 				90C363A72B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
