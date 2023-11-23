@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90EADCC32B05BF36004B1EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EADCC22B05BF36004B1EE5 /* AppDelegate.swift */; };
-		90EADCC52B05BF36004B1EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EADCC42B05BF36004B1EE5 /* SceneDelegate.swift */; };
-		90EADCC72B05BF36004B1EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EADCC62B05BF36004B1EE5 /* ViewController.swift */; };
-		90EADCCA2B05BF36004B1EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EADCC82B05BF36004B1EE5 /* Main.storyboard */; };
-		90EADCCC2B05BF37004B1EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EADCCB2B05BF37004B1EE5 /* Assets.xcassets */; };
-		90EADCCF2B05BF37004B1EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EADCCD2B05BF37004B1EE5 /* LaunchScreen.storyboard */; };
+		90C363A72B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C363A62B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift */; };
+		90C363A92B0FD77F00BC22B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C363A82B0FD77F00BC22B9 /* ContentView.swift */; };
+		90C363AB2B0FD78000BC22B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C363AA2B0FD78000BC22B9 /* Assets.xcassets */; };
+		90C363AE2B0FD78000BC22B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C363AD2B0FD78000BC22B9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90EADCBF2B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalProject-WeatherWise-Group4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90EADCC22B05BF36004B1EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90EADCC42B05BF36004B1EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90EADCC62B05BF36004B1EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90EADCC92B05BF36004B1EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90EADCCB2B05BF37004B1EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90EADCCE2B05BF37004B1EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		90EADCD02B05BF37004B1EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C363A32B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalProject-WeatherWise-Group4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C363A62B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProject_WeatherWise_Group4App.swift; sourceTree = "<group>"; };
+		90C363A82B0FD77F00BC22B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90C363AA2B0FD78000BC22B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90C363AD2B0FD78000BC22B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90EADCBC2B05BF36004B1EE5 /* Frameworks */ = {
+		90C363A02B0FD77F00BC22B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90EADCB62B05BF36004B1EE5 = {
+		90C3639A2B0FD77F00BC22B9 = {
 			isa = PBXGroup;
 			children = (
-				90EADCC12B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4 */,
-				90EADCC02B05BF36004B1EE5 /* Products */,
+				90C363A52B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4 */,
+				90C363A42B0FD77F00BC22B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		90EADCC02B05BF36004B1EE5 /* Products */ = {
+		90C363A42B0FD77F00BC22B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90EADCBF2B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4.app */,
+				90C363A32B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90EADCC12B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4 */ = {
+		90C363A52B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4 */ = {
 			isa = PBXGroup;
 			children = (
-				90EADCC22B05BF36004B1EE5 /* AppDelegate.swift */,
-				90EADCC42B05BF36004B1EE5 /* SceneDelegate.swift */,
-				90EADCC62B05BF36004B1EE5 /* ViewController.swift */,
-				90EADCC82B05BF36004B1EE5 /* Main.storyboard */,
-				90EADCCB2B05BF37004B1EE5 /* Assets.xcassets */,
-				90EADCCD2B05BF37004B1EE5 /* LaunchScreen.storyboard */,
-				90EADCD02B05BF37004B1EE5 /* Info.plist */,
+				90C363A62B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift */,
+				90C363A82B0FD77F00BC22B9 /* ContentView.swift */,
+				90C363AA2B0FD78000BC22B9 /* Assets.xcassets */,
+				90C363AC2B0FD78000BC22B9 /* Preview Content */,
 			);
 			path = "FinalProject-WeatherWise-Group4";
+			sourceTree = "<group>";
+		};
+		90C363AC2B0FD78000BC22B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90C363AD2B0FD78000BC22B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90EADCBE2B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4 */ = {
+		90C363A22B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90EADCD32B05BF37004B1EE5 /* Build configuration list for PBXNativeTarget "FinalProject-WeatherWise-Group4" */;
+			buildConfigurationList = 90C363B12B0FD78000BC22B9 /* Build configuration list for PBXNativeTarget "FinalProject-WeatherWise-Group4" */;
 			buildPhases = (
-				90EADCBB2B05BF36004B1EE5 /* Sources */,
-				90EADCBC2B05BF36004B1EE5 /* Frameworks */,
-				90EADCBD2B05BF36004B1EE5 /* Resources */,
+				90C3639F2B0FD77F00BC22B9 /* Sources */,
+				90C363A02B0FD77F00BC22B9 /* Frameworks */,
+				90C363A12B0FD77F00BC22B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "FinalProject-WeatherWise-Group4";
 			productName = "FinalProject-WeatherWise-Group4";
-			productReference = 90EADCBF2B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4.app */;
+			productReference = 90C363A32B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		90EADCB72B05BF36004B1EE5 /* Project object */ = {
+		90C3639B2B0FD77F00BC22B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					90EADCBE2B05BF36004B1EE5 = {
+					90C363A22B0FD77F00BC22B9 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 90EADCBA2B05BF36004B1EE5 /* Build configuration list for PBXProject "FinalProject-WeatherWise-Group4" */;
+			buildConfigurationList = 90C3639E2B0FD77F00BC22B9 /* Build configuration list for PBXProject "FinalProject-WeatherWise-Group4" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 90EADCB62B05BF36004B1EE5;
-			productRefGroup = 90EADCC02B05BF36004B1EE5 /* Products */;
+			mainGroup = 90C3639A2B0FD77F00BC22B9;
+			productRefGroup = 90C363A42B0FD77F00BC22B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90EADCBE2B05BF36004B1EE5 /* FinalProject-WeatherWise-Group4 */,
+				90C363A22B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		90EADCBD2B05BF36004B1EE5 /* Resources */ = {
+		90C363A12B0FD77F00BC22B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EADCCF2B05BF37004B1EE5 /* LaunchScreen.storyboard in Resources */,
-				90EADCCC2B05BF37004B1EE5 /* Assets.xcassets in Resources */,
-				90EADCCA2B05BF36004B1EE5 /* Main.storyboard in Resources */,
+				90C363AE2B0FD78000BC22B9 /* Preview Assets.xcassets in Resources */,
+				90C363AB2B0FD78000BC22B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		90EADCBB2B05BF36004B1EE5 /* Sources */ = {
+		90C3639F2B0FD77F00BC22B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EADCC72B05BF36004B1EE5 /* ViewController.swift in Sources */,
-				90EADCC32B05BF36004B1EE5 /* AppDelegate.swift in Sources */,
-				90EADCC52B05BF36004B1EE5 /* SceneDelegate.swift in Sources */,
+				90C363A92B0FD77F00BC22B9 /* ContentView.swift in Sources */,
+				90C363A72B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		90EADCC82B05BF36004B1EE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90EADCC92B05BF36004B1EE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		90EADCCD2B05BF37004B1EE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90EADCCE2B05BF37004B1EE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		90EADCD12B05BF37004B1EE5 /* Debug */ = {
+		90C363AF2B0FD78000BC22B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		90EADCD22B05BF37004B1EE5 /* Release */ = {
+		90C363B02B0FD78000BC22B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,19 +264,20 @@
 			};
 			name = Release;
 		};
-		90EADCD42B05BF37004B1EE5 /* Debug */ = {
+		90C363B22B0FD78000BC22B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalProject-WeatherWise-Group4/Preview Content\"";
 				DEVELOPMENT_TEAM = 82U4QGZ5MH;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FinalProject-WeatherWise-Group4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,19 +293,20 @@
 			};
 			name = Debug;
 		};
-		90EADCD52B05BF37004B1EE5 /* Release */ = {
+		90C363B32B0FD78000BC22B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinalProject-WeatherWise-Group4/Preview Content\"";
 				DEVELOPMENT_TEAM = 82U4QGZ5MH;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FinalProject-WeatherWise-Group4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90EADCBA2B05BF36004B1EE5 /* Build configuration list for PBXProject "FinalProject-WeatherWise-Group4" */ = {
+		90C3639E2B0FD77F00BC22B9 /* Build configuration list for PBXProject "FinalProject-WeatherWise-Group4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90EADCD12B05BF37004B1EE5 /* Debug */,
-				90EADCD22B05BF37004B1EE5 /* Release */,
+				90C363AF2B0FD78000BC22B9 /* Debug */,
+				90C363B02B0FD78000BC22B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90EADCD32B05BF37004B1EE5 /* Build configuration list for PBXNativeTarget "FinalProject-WeatherWise-Group4" */ = {
+		90C363B12B0FD78000BC22B9 /* Build configuration list for PBXNativeTarget "FinalProject-WeatherWise-Group4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90EADCD42B05BF37004B1EE5 /* Debug */,
-				90EADCD52B05BF37004B1EE5 /* Release */,
+				90C363B22B0FD78000BC22B9 /* Debug */,
+				90C363B32B0FD78000BC22B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 90EADCB72B05BF36004B1EE5 /* Project object */;
+	rootObject = 90C3639B2B0FD77F00BC22B9 /* Project object */;
 }
