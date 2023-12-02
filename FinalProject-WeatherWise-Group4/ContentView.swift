@@ -5,6 +5,8 @@
 //  Created by Majid Pawar on 2023-11-23.
 //
 
+
+import SDWebImageSwiftUI
 import SwiftUI
 
 struct ContentView: View {
@@ -12,6 +14,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Picker(selection: $forecastListVM.system, label: Text("System")) {
+                    Text("°C").tag(0)
+                    Text("°F").tag(1)
+                }
+                .pickerStyle(SegmentedPickerStyle())
+                .frame(width: 100)
+                .padding(.vertical)
                 HStack {
                     TextField("Enter Location", text: $forecastListVM.location)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -23,39 +32,42 @@ struct ContentView: View {
                     }
                 }
                 List(forecastListVM.forecasts, id: \.day) { day in
-                    VStack(alignment: .leading) {
-                        Text(day.day)
-                            .fontWeight(.bold)
-                        HStack(alignment: .top) {
-                            Image(systemName: "hourglass")
-                                .font(.title)
-                                .frame(width: 50, height: 50)
-                                .background(RoundedRectangle(cornerRadius: 10).fill(Color.green))
-                            VStack(alignment: .leading) {
-                                Text(day.overview)
-                                HStack {
-                                    Text(day.high)
-                                    Text(day.low)
+                        VStack(alignment: .leading) {
+                            Text(day.day)
+                                .fontWeight(.bold)
+                            HStack(alignment: .center) {
+                                WebImage(url: day.weatherIconURL)
+                                    .resizable()
+                                    .placeholder {
+                                        Image(systemName: "hourglass")
+                                    }
+                                    .scaledToFit()
+                                    .frame(width: 75)
+                                VStack(alignment: .leading) {
+                                    Text(day.overview)
+                                    HStack {
+                                        Text(day.high)
+                                        Text(day.low)
+                                    }
+                                    HStack {
+                                        Text(day.clouds)
+                                        Text(day.pop)
+                                    }
+                                    Text(day.humidity)
                                 }
-                                HStack {
-                                    Text(day.clouds)
-                                    Text(day.pop)
-                                }
-                                Text(day.humidity)
                             }
                         }
                     }
-                }
                     .listStyle(PlainListStyle())
-                }
-                .padding(.horizontal)
-                .navigationTitle("Mobile Weather")
             }
+            .padding(.horizontal)
+            .navigationTitle("Mobile Weather")
         }
     }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
+}

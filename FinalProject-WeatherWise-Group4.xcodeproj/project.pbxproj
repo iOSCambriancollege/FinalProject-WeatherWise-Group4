@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		907E39162B1AE46300018F9B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 907E39152B1AE46300018F9B /* SDWebImageSwiftUI */; };
 		908493142B16DC930026B746 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908493132B16DC930026B746 /* ForecastViewModel.swift */; };
 		90C363A72B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C363A62B0FD77F00BC22B9 /* FinalProject_WeatherWise_Group4App.swift */; };
 		90C363A92B0FD77F00BC22B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C363A82B0FD77F00BC22B9 /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907E39162B1AE46300018F9B /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,9 @@
 			dependencies = (
 			);
 			name = "FinalProject-WeatherWise-Group4";
+			packageProductDependencies = (
+				907E39152B1AE46300018F9B /* SDWebImageSwiftUI */,
+			);
 			productName = "FinalProject-WeatherWise-Group4";
 			productReference = 90C363A32B0FD77F00BC22B9 /* FinalProject-WeatherWise-Group4.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 90C3639A2B0FD77F00BC22B9;
+			packageReferences = (
+				907E39142B1AE46300018F9B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 90C363A42B0FD77F00BC22B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		907E39142B1AE46300018F9B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		907E39152B1AE46300018F9B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 907E39142B1AE46300018F9B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90C3639B2B0FD77F00BC22B9 /* Project object */;
 }
