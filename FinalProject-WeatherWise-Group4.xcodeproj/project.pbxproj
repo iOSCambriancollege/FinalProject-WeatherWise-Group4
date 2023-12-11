@@ -66,9 +66,9 @@
 				908493132B16DC930026B746 /* ForecastViewModel.swift */,
 				90D2DEF42B17EA0500ED959B /* ForecastListViewModel.swift */,
 				90C363B42B0FD91000BC22B9 /* Forecast.swift */,
+				90F0AD312B0FE2940081B7FC /* APIService.swift */,
 				90C363AA2B0FD78000BC22B9 /* Assets.xcassets */,
 				90C363AC2B0FD78000BC22B9 /* Preview Content */,
-				90F0AD312B0FE2940081B7FC /* APIService.swift */,
 			);
 			path = "FinalProject-WeatherWise-Group4";
 			sourceTree = "<group>";
